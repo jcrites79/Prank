@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Important Notice</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: red;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            font-size: 3em;
+            color: white;
+            animation: flash 1s infinite;
+        }
+        @keyframes flash {
+            0%, 50%, 100% {
+                opacity: 1;
+            }
+            25%, 75% {
+                opacity: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Downloading Gay Porn...</h1>
+    <script>
+        const audio = new Audio('alarm.mp3');
+        audio.loop = true;
+        audio.play();
+        
+        window.onbeforeunload = function() {
+            return "Are you sure you want to leave?";
+        }
+    </script>
+</body>
+</html>
